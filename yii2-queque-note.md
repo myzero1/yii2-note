@@ -19,8 +19,8 @@ config
             'db' => 'db', // DB connection component or its config
             'tableName' => '{{%queue}}', // Table name
             'channel' => 'ingestion', // Queue channel key
-            'mutex' => \yii\mutex\FileMutex::class,// It will 
-        ],
+            'mutex' => \yii\mutex\FileMutex::class,// The program will be wrong,if you not set it.
+        ],
         ....
      ]
 
